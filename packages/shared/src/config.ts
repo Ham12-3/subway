@@ -55,12 +55,12 @@ const rawConfig = {
   render: {
     /** Longest frame the loop will simulate, to stop a stall snowballing. */
     maxFrameSeconds: 0.25,
-    cameraBackMetres: 9,
-    cameraHeightMetres: 5.2,
-    cameraLookAheadMetres: 14,
-    cameraFieldOfView: 62,
-    fogNearMetres: 45,
-    fogFarMetres: 200,
+    cameraBackMetres: 10,
+    cameraHeightMetres: 6,
+    cameraLookAheadMetres: 16,
+    cameraFieldOfView: 58,
+    fogNearMetres: 60,
+    fogFarMetres: 190,
     /** How quickly the drawn player catches up with its lane. Visual only. */
     laneEasePerSecond: 16,
     jumpArcHeightMetres: 1.9,
